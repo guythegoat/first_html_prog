@@ -1,0 +1,53 @@
+﻿body {
+    background-color: cornflowerblue
+}
+h1 {
+    font-size: 350%;
+    text-align:center
+}
+p {
+    font-size:200%
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+    border-block-start: 1px solid;
+    border-block-end: 1px solid;
+    border-right: 1px solid;
+    border-color: black
+}
+
+li {
+    float: left;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: black
+}
+
+li:last-child {
+    border-right: 1.5px solid;
+}
+
+li:first-child {
+    border-left: 1.5px solid;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    border-inline-start-color: black;
+    color: black;
+    text-align: center;
+}
+
+li a:hover:not(.active) {
+    background-color:Highlight
+}
+
+.active {
+    background-color: aquamarine;
+}
